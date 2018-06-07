@@ -1,0 +1,12 @@
+Q1. The difference between #include <filename> and #include “filename.”
+A1. By. https://stackoverflow.com/questions/21593/what-is-the-difference-between-include-filename-and-include-filename
+  The difference is the location that the processor searches for the included file.
+  For #include <filename> the preprocessor searches in an implementation dependent manner, normally in 
+search directories pre-designated by the compiler/IDE. This method is normally used to include standard 
+library header files.
+  For #include "filename" the preprocessor searches first in the same directory as the file containing 
+the directive, and then follows the search path used for the #include <filename> form. This method is 
+normally used to include programmer-defined header files.
+
+Q2. 
+A2. 
