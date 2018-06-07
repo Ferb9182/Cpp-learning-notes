@@ -1,6 +1,12 @@
-/*test1 calculator*/
+/*read img via C++*/
 
-#include <iostream>
+#include "stdio.h"
+#include "iostream.h"
+#include "string.h"
+#include <conio.h>
+#include "stdlib.h"
+#include "windows.h"
+
 
 int main()
 {
